@@ -127,6 +127,40 @@ a = User("Alice", admin_perm)
 
 print(u.can_delete())  
 print(a.can_delete()) 
+
+class Role:
+    def can_delete(self):
+        return False
+
+class AdminRole(Role):
+    def can_delete(self):
+        return True
+
+class User:
+    def __init__(self, name, role,can_force_delete):
+        self.name = name
+        self.role = role
+        self.can_delete = False
+
+    def can_delete(self):
+        return self.role.can_delete()
+
+class File:
+    def __init__(self, owner):
+        self.owner = owner
+
+    def delete(self, user):
+        if user.can_delete():
+            print("deleted (role)")
+        elif user == self.owner:
+            print("deleted (owner)")
+        elif user.can_delete == True:
+          print("allowed")
+        else:
+            print("denied")
+
+
+
     
 
 
