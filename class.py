@@ -1,4 +1,3 @@
-## task1
 
 class car:
   def __init__(self,model,speed):
@@ -24,8 +23,15 @@ class Account:
     self.balance = balance
 
   def deposit(self,amount):
-    self.balance= amount 
-    print(f"remaing balance after deposit : {amount}")
+    if amount < 0 :
+      print("Invalid deposit")
+      return
+    
+    self.balance= self.balance + amount 
+    print(f"remaing balance after deposit : {self.balance}")
+  
+  def show_balance(self):
+    print(self.balance)
   
   def withdraw(self,amount):
     if amount > self.balance:
@@ -34,9 +40,107 @@ class Account:
       self.balance = amount
       print(f"remaing balance after deposit : {amount}")
 
-a1 = Account("suraj","50000")
+a1 = Account("suraj",50000)
 
-a1.withdraw("60000")
+class Engine:
+  def __init__(self,power):
+    self.power = power
+  
+  def start(self):
+    print(f"Engine started with power {self.power}")
+
+class Car:
+  def __init__(self,model,engine):
+    self.model = model
+    self.engine = engine
+
+  def start_car(self):
+    self.engine.start()
+
+e1 = Engine(40)
+c1 = Car("tesla",e1)
+
+class User:
+  def __init__(self,name,role):
+    self.name = name
+    self.role = role
+  
+class File:
+  def __init__(self,owner):
+    self.owner = owner
+
+  def delete(self,user):
+    if user.role == "admin":
+      print("always allow")
+    
+    elif  user == self.owner:
+      print("allow")
+    
+    else:
+      print("deny")
+
+u1 = User("hello","member")
+f1 = File(u1)
+##f1.delete(u1)
+
+## TASK 15
+class User:
+  def __init__(self,name):
+    self.name = name
+  
+  def can_edit(self):
+    return False
+  
+  def describe(self):
+    print("I am a user")
+
+class Editor(User):
+  def can_edit(self):
+    return True
+  def describe(self):
+    print("I am a Editor")
+
+u = User("Bob")
+e = Editor("Alice")
+
+class Permission:
+  def can_delete(self):
+    return False
+
+class AdminPermission(Permission):
+  def can_delete(self):
+    return True
+
+class User:
+  def __init__(self,name,permission):
+    self.name = name
+    self.permission = permission
+
+  def can_delete(self):
+    return self.permission.can_delete()
+  
+normal_perm = Permission()
+admin_perm = AdminPermission()
+
+u = User("Bob", normal_perm)
+a = User("Alice", admin_perm)
+
+print(u.can_delete())  
+print(a.can_delete()) 
+    
+
+
+
+
+
+      
+
+
+
+
+    
+    
+    
 
 
 
