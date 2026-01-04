@@ -60,10 +60,10 @@ class Car:
 e1 = Engine(40)
 c1 = Car("tesla",e1)
 
-class User:
-  def __init__(self,name,role):
-    self.name = name
-    self.role = role
+# class User:
+#   def __init__(self,name,role):
+#     self.name = name
+#     self.role = role
   
 class File:
   def __init__(self,owner):
@@ -79,70 +79,67 @@ class File:
     else:
       print("deny")
 
-u1 = User("hello","member")
-f1 = File(u1)
+# u1 = User("hello","member")
+# f1 = File(u1)
 ##f1.delete(u1)
 
 ## TASK 15
-class User:
-  def __init__(self,name):
-    self.name = name
+# class User:
+#   def __init__(self,name):
+#     self.name = name
   
-  def can_edit(self):
-    return False
+#   def can_edit(self):
+#     return False
   
-  def describe(self):
-    print("I am a user")
+#   def describe(self):
+#     print("I am a user")
 
-class Editor(User):
-  def can_edit(self):
-    return True
-  def describe(self):
-    print("I am a Editor")
+# class Editor(User):
+#   def can_edit(self):
+#     return True
+#   def describe(self):
+#     print("I am a Editor")
 
-u = User("Bob")
-e = Editor("Alice")
+# u = User("Bob")
+# e = Editor("Alice")
 
-class Permission:
-  def can_delete(self):
-    return False
+# class Permission:
+#   def can_delete(self):
+#     return False
 
-class AdminPermission(Permission):
-  def can_delete(self):
-    return True
+# class AdminPermission(Permission):
+#   def can_delete(self):
+#     return True
 
-class User:
-  def __init__(self,name,permission):
-    self.name = name
-    self.permission = permission
+# class User:
+#   def __init__(self,name,permission):
+#     self.name = name
+#     self.permission = permission
 
-  def can_delete(self):
-    return self.permission.can_delete()
+#   def can_delete(self):
+#     return self.permission.can_delete()
   
-normal_perm = Permission()
-admin_perm = AdminPermission()
+# normal_perm = Permission()
+# admin_perm = AdminPermission()
 
-u = User("Bob", normal_perm)
-a = User("Alice", admin_perm)
+# u = User("Bob", normal_perm)
+# a = User("Alice", admin_perm) 
 
-print(u.can_delete())  
-print(a.can_delete()) 
+# class Role:
+#     def can_delete(self):
+#         return False
 
-class Role:
-    def can_delete(self):
-        return False
+# class AdminRole(Role):
+#     def can_delete(self):
+#         return True
 
-class AdminRole(Role):
-    def can_delete(self):
-        return True
+# class User:
+#     def __init__(self, name, role,can_force_delete):
+#         self.name = name
+#         self.role = role
 
-class User:
-    def __init__(self, name, role,can_force_delete):
-        self.name = name
-        self.role = role
-
-    def can_delete(self):
-        return self.role.can_delete()
+#     def can_delete(self):
+#         return self.role.can_delete()
 
 class File:
     def __init__(self, owner):
@@ -166,14 +163,31 @@ class Account:
     def deposit(self,amount):
          self._balance = self._balance + amount
     
+    
     def withdraw(self, amount):
       if amount > self._balance:
-        print("Insufficient balance")
+        print("Insufficient balance") 
         return
       self._balance -= amount
     
-    def get_balance(self):
-       print(f"balance: {self._balance}")
+    @property ## think like turns method into variable 
+    def balance(self):
+        return self._balance
+
+# a1 = Account(5000)
+# a1.balance 
+# a1.withdraw(6000)
+
+class User:
+   def __init__(self,user_id,name):
+      self.user_id = user_id
+      self.name = name
+    
+    def __eq__(self, o_id):
+       return self.user_id == o_id
+   
+      
+      
 
 
 
