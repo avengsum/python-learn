@@ -16,14 +16,42 @@ welcome to chabtbook press
 """)
     
     if user_input == "1":
-      pass
+      self.signup()
     elif user_input == "2":
-      pass
+      self.sigin()
     elif user_input == "3":
       pass
     elif user_input == "4":
       pass
     else:
       exit()
+  
+  def signup(self):
+    username = input("enter your username: ")
+    password = input("enter password: ")
+    self.username = username
+    self.password = password
+    print("succesful")
+    print("\n")
+    self.menu()
+
+  def sigin(self):
+    if self.username== '' and self.password:
+      print("please signup first")
+    else:
+      username = input("enter your username: ")
+    password = input("enter password: ")
+    if self.username == username and self.password == password:
+      print("succesful")
+      print("\n")
+      self.loggedin = True
+    else:
+      print("wrong password or login")
+    
+    print('\n')
+    self.menu()
+  
 
 c1 = chatbook()
+
+
