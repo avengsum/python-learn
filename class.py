@@ -140,7 +140,6 @@ class User:
     def __init__(self, name, role,can_force_delete):
         self.name = name
         self.role = role
-        self.can_delete = False
 
     def can_delete(self):
         return self.role.can_delete()
@@ -158,6 +157,23 @@ class File:
           print("allowed")
         else:
             print("denied")
+
+
+class Account:
+    def __init__(self, balance):
+        self._balance = balance
+
+    def deposit(self,amount):
+         self._balance = self._balance + amount
+    
+    def withdraw(self, amount):
+      if amount > self._balance:
+        print("Insufficient balance")
+        return
+      self._balance -= amount
+    
+    def get_balance(self):
+       print(f"balance: {self._balance}")
 
 
 
