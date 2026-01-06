@@ -102,3 +102,7 @@ remmeber
 
 ** agr hume pre order or in order ya post order aur in order diya ho to hum tree bana sakte h lenkin inorder hona chaiye uske bina nahi **
 
+## binary search tree
+so binary search tree sorted hote h
+so inorder bhi sorted hoga ok
+
