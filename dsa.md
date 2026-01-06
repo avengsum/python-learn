@@ -60,3 +60,45 @@ just remember formula
 ![alt text](image-7.png)
 
 simple formula = b + size * (number of elements in row + column)
+
+## stack 
+![alt text](image-8.png)
+
+## stack operation 
+![alt text](image-9.png)
+all are o(1)
+
+## Infix to Postfix Operation in Stack:
+![alt text](image-10.png)
+bahut simple h bs + - vale ko ko age karo aur / * wale ko pehle solv kare bs 
+
+## ques
+![alt text](image-11.png)
+bahut simple h
+
+## recursion
+learn to visualize the tree
+![alt text](image-12.png)
+
+![alt text](image-13.png)
+
+## tress 
+![alt text](image-14.png)
+
+jb height di ho to ise use karo
+![alt text](image-15.png)
+
+![alt text](image-16.png)
+so bahut simple h gate samaser video dekh le 
+pre rootLr
+in lrootr
+post lrroot
+
+ye upar wale smjoge to ye question kr loge
+![alt text](image-17.png)
+
+remmeber
+![alt text](image-18.png)
+
+** agr hume pre order or in order ya post order aur in order diya ho to hum tree bana sakte h lenkin inorder hona chaiye uske bina nahi **
+
