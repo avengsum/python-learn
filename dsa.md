@@ -119,3 +119,35 @@ image dekh le smj jaega
 # ques
 ![alt text](image-20.png)
 aise question diya ho to pehle left bare phir right aur max ho to parent greater hona chaiye child se
+
+rember this 
+![alt text](image-21.png)
+
+# ques
+![alt text](image-22.png)
+aise question m pehle khud tree design karo phir khud samj jaoge kitne swap lagegas
+
+# ques
+![alt text](image-23.png)
+
+jaruri nahi h fixed line hi ho like aise bhi ho sakta h
+![alt text](image-24.png)
+
+## pre se post 
+![alt text](image-26.png)
+
+pehle root se chote left aur root se bade right simple logic ise yaad rakho aur pre
+se tree banao aur tree se post find karlo
+
+![alt text](image-27.png)
+![alt text](image-28.png)
+![alt text](image-29.png)
+![alt text](image-30.png)
+you got an idea
+
+# in order question
+so inorder pehcane ka simple rule woh incresing order me hoge 
+
+![alt text](image-25.png)
+jaise is picture me dekh sakte ho
+
