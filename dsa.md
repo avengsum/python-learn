@@ -106,3 +106,16 @@ remmeber
 so binary search tree sorted hote h
 so inorder bhi sorted hoga ok
 
+## min heap and max heap
+
+so min heap aur max heap pehle complete binary tree hone chaiye
+
+aur min heap me root min hota h aur max
+max hota h
+
+image dekh le smj jaega
+![alt text](image-19.png)
+
+# ques
+![alt text](image-20.png)
+aise question diya ho to pehle left bare phir right aur max ho to parent greater hona chaiye child se
