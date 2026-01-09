@@ -26,4 +26,23 @@ data base ko access modify karne wale software ko dbms bolte h
 - schemas is the structure of desin of data base
 
 ## transaction
+so transction group of database operation
+hote h joki fully exceute hona chaiye nahi to bikul nahi hona chaiye
+
+eg
+![alt text](image-40.png)
+ 
+Every transaction must satisfy ACID:
+![alt text](image-41.png) 
+
+## transaction states
+![alt text](image-42.png)
+![alt text](image-43.png)
+
+## concurency
+![alt text](image-44.png)
+![alt text](image-45.png)
+
+so tum soch rahe hogi ki acid property follow karta h phir bhi kaise problem aai kyuki acid property indivual transcaton follow karte h na ki age sb bhi
+
 
