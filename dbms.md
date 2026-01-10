@@ -130,3 +130,7 @@ so isme 1 to 1 relationship hona chaiye matlab ye nahi h ki relation compulsary 
 
 ## strong and weak entity
 so strong rectangle se represent hoga aur weak double rectangle se hoga
+
+
+## conversion
+conveesion ke related question karaya asan h samj jaega dekh lena yyad na aae toh
