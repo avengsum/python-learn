@@ -106,3 +106,11 @@ so isme hum sara resource lock kar lete h jo jaruri rehta h lekin unlock hum pha
 ## Rigorous Two-Phase
 ![alt text](image-61.png)
 
+isme shriking phase nahi hota
+
+## strict 2pl
+![alt text](image-62.png)
+![alt text](image-63.png)
+
+![alt text](image-64.png)
+
