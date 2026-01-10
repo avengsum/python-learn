@@ -114,3 +114,19 @@ isme shriking phase nahi hota
 
 ![alt text](image-64.png)
 
+![alt text](image-65.png)
+
+![alt text](image-66.png)
+
+![alt text](image-67.png)
+
+so isme 1 to 1 relationship hona chaiye matlab ye nahi h ki relation compulsary lekin agr realation h to sirf one hi hona chaiye 1 se jada nahi 
+
+![alt text](image-68.png)
+![alt text](image-69.png)
+![alt text](image-70.png)
+![alt text](image-71.png)
+![alt text](image-72.png)
+
+## strong and weak entity
+so strong rectangle se represent hoga aur weak double rectangle se hoga
