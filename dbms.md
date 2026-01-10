@@ -45,4 +45,14 @@ Every transaction must satisfy ACID:
 
 so tum soch rahe hogi ki acid property follow karta h phir bhi kaise problem aai kyuki acid property indivual transcaton follow karte h na ki age sb bhi
 
+![alt text](image-46.png)
+![alt text](image-47.png)
 
+- solution
+  - serial schedule
+    ![alt text](image-48.png)
+    ok so in this so first ek trascaton pura hoga phir hi dursa trasacton pe work hoga so isme aisa nahi hki dursa syart ho jaega so isme real concureeny nahi h 
+
+  ## conflicting
+  ![alt text](image-49.png)
+  ok left one conflicting h right one nahi h
