@@ -55,4 +55,26 @@ so tum soch rahe hogi ki acid property follow karta h phir bhi kaise problem aai
 
   ## conflicting
   ![alt text](image-49.png)
-  ok left one conflicting h right one nahi h
+  ok left one non-conflicting h right one nahi h conflicting h
+
+## non recoverable schedule
+![alt text](image-50.png)
+
+## recoverable schedule
+![alt text](image-51.png)
+
+simple dirty read ka concept samjo like
+agar uske read se pehle write kiya h tabhi issue aaega so jo dirty read karega usko baad  commit karna hoga taki recoverable ho jae
+
+![alt text](image-52.png)
+
+so ye recoverable h but agar ek faiikure hua to like pehle wala rolleback karega phir baki bhi dekhi dekha rollback karege jo ki ek issue h jo ki nahi hona chaiye
+
+![alt text](image-53.png)
+so ye casscdeless h because isme baad m commit hua but ye serial trascation jaisa dikhne laga
+
+![alt text](image-54.png)
+
+![alt text](image-55.png)
+s3 strict schedule ka example h so strict schedcule kehta h ki agar kisi ne write operaton perform kya toh dursa travton us variable pe write operation perform nahi kar sakta jb tak usne commit nahi kar diya
+
