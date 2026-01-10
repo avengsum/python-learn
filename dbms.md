@@ -78,3 +78,31 @@ so ye casscdeless h because isme baad m commit hua but ye serial trascation jais
 ![alt text](image-55.png)
 s3 strict schedule ka example h so strict schedcule kehta h ki agar kisi ne write operaton perform kya toh dursa travton us variable pe write operation perform nahi kar sakta jb tak usne commit nahi kar diya
 
+## protocal
+so humne ye to jaan liya kya karna h like
+kya strict schedule h like ab hum us protocal ko design karege so here
+things protocal need to follow
+![alt text](image-56.png)
+
+## time stamp ordering protocal
+so its simple protcal so jb new traction enter hota h to use ek time stamp diya jata h like 5 so aur jis data woh read write operation perform karta h uspe woh apna time stamp bhi daal deta so ye proprtcal bs ye make sure karta h ki so pehle aya woh pehle perform kare jo baad me aya woh baad m 
+![alt text](image-57.png)
+so t1 allowed hona chaiye no becausee woh loop break kar dega
+![alt text](image-58.png)
+so ye view serazability aur conflict dono hota h
+
+## lock bassed protocal
+so lock bassed protocal bahut simple h so ek trastion data type pe lock lagata h jise woh uspe perfrom kar sakte h so isme bhi do tarah se lock hote h like shared lock isme read operation ke liye hota h like isme durse trasaction bhi us data pe read operation perform kar sakte aur dursa
+- exclusive mode isme sirf woh traction perform kar sakte h koi aur nahi kar paega na read na write 
+
+## two phase locking protocol(2PL)
+![alt text](image-59.png)
+
+## conserative 2pl
+![alt text](image-60.png)
+so isme growing phase nahi hota isme direct hum lock point se start karte h
+so isme hum sara resource lock kar lete h jo jaruri rehta h lekin unlock hum phases m kar sakte h 
+
+## Rigorous Two-Phase
+![alt text](image-61.png)
+
