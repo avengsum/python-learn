@@ -183,8 +183,13 @@ class User:
       self.user_id = user_id
       self.name = name
     
-    def __eq__(self, o_id):
+   def __eq__(self, o_id):
        return self.user_id == o_id
+   
+
+class File:
+   def is_owner(self,user):
+      return user == self.owner
    
       
       

@@ -134,3 +134,14 @@ so strong rectangle se represent hoga aur weak double rectangle se hoga
 
 ## conversion
 conveesion ke related question karaya asan h samj jaega dekh lena yyad na aae toh
+
+## properties
+![alt text](image-73.png)
+ek cell m sirf ek value rakh sakte h ek se jada nahi
+
+## functional deppendecy
+![alt text](image-74.png)
+so simple same value ke sath diffrent ana chaiye same nahi
+ques se smj jaega
+![alt text](image-75.png)
+smj le
