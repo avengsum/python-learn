@@ -145,3 +145,44 @@ so simple same value ke sath diffrent ana chaiye same nahi
 ques se smj jaega
 ![alt text](image-75.png)
 smj le
+![alt text](image-76.png)
+so humensa left se right check karod
+like a -> b so a is unique id so unque hi result ana chaiye use a -> b aur a-> c dono ek sath nahi de sakta ye glt h
+
+## trival function 
+so trival function woh function hote h jo kuch new nahi dete like
+Roll_No → Roll_No so roll no se roll no diya so kuch naya todi h
+input se output nikala
+![alt text](image-77.png)
+
+![alt text](image-78.png)
+matlal f jitna hum find kar sakte h use hum f* kahe ge
+![alt text](image-79.png)
+![alt text](image-80.png)
+![alt text](image-81.png)
+![alt text](image-82.png)
+
+## Good to remember
+![alt text](image-83.png)
+
+## ques to check f1 == f2
+so ise karna bahut simple h bs check karo ek dusre se kya woh sb apna functional
+dependecy nikal pa rahe h
+![alt text](image-84.png)
+
+## minimize
+![alt text](image-85.png)
+so simple h pehle brek karo like A->bcd so ise likho a->b a->c a->d 
+ab clousure nikalo ek baar a->b ka use karke aur ek baar sirf a se agar same h to remove it
+because iska matlah ki hum upar wale ke bina bhi kar sakte h hume uski jarurat nahi h
+ab woh find karne ke baad indivual (yahi left side m ek se jada attributes h) 
+pe karege question m ac -> d diya h
+so pehle ac phir a phir c alg aya to rakho
+
+## super key
+so relation r agar koi fuction like s aur s ke clousure se hum r nikal de rahe h tph woh
+s super key h
+![alt text](image-86.png)
+
+## candidate key
+![alt text](image-87.png)
