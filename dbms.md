@@ -186,3 +186,32 @@ s super key h
 
 ## candidate key
 ![alt text](image-87.png)
+
+## foreign key
+![alt text](image-88.png)
+
+## normization
+## partial
+![alt text](image-89.png)
+so ab ->d a-> c so ab prime attribute h so a -> c partial h kyuki b ke bina c ko kr le raha h
+
+## second normal form
+![alt text](image-90.png)
+
+so second form m partial nahi hina chaiye
+
+![alt text](image-91.png)
+
+so is question me hune 1 form se 2 m kiya 
+so jo partial h use agl table m daal do simple
+
+## transitive dependecy
+![alt text](image-92.png)
+so jb ek non prime attribute non prime ko idetify kare use hum transitive
+depemceyu bolte h
+
+## 3 normal form
+![alt text](image-93.png)
+
+![alt text](image-94.png)
+circle transitive dependecy ka exmple h so simple new table bana do 
