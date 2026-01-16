@@ -277,3 +277,24 @@ isme har value ko nahi mil milegi so no of recoder entry less hogi index se
 
 ## primary indexing
 ![alt text](image-109.png)
+![alt text](image-110.png)
+ye sparse ka example isme hum block m divide karte h aur block ke pehle ko index m store karte h
+
+## cluster indexing
+![alt text](image-111.png)
+so isme block ko nahi balki disct value ko store kare like photo dekho 1 store kare phir 2 bhi uski block m h so us block ko bhi phir store kare so second block store nahi ho phirse asise hi 3 aur baki sb
+
+## secondary
+![alt text](image-112.png)
+
+## multi level
+![alt text](image-113.png)
+isme index ki bhi indexing karte hai
+
+
+## query
+![alt text](image-114.png)
+
+predciak m hum kya chate aur kaise lana h woh bhi batate h lekin non m nahi usme just hum likh te get me bs use hu direct mag lete h
+
+![alt text](image-115.png)
