@@ -194,6 +194,7 @@ s super key h
 ## partial
 ![alt text](image-89.png)
 so ab ->d a-> c so ab prime attribute h so a -> c partial h kyuki b ke bina c ko kr le raha h
+prime -> non-prime
 
 ## second normal form
 ![alt text](image-90.png)
@@ -215,3 +216,64 @@ depemceyu bolte h
 
 ![alt text](image-94.png)
 circle transitive dependecy ka exmple h so simple new table bana do 
+
+## bcnf
+![alt text](image-95.png)
+isko farak nahi padta kya prime kya non prime ise bs ye h ki aar a -> b so a superkey 
+hona chaiye bs aur kuch nahi
+
+## remeber
+agar relation m sare attaribute agr prime h so 3nf confirm
+
+## multi valued dependecy
+![alt text](image-96.png)
+so isme like ek function h f(x) = y so ab f(x) = z nahi ho sakta na 
+lekin isme ho sakta matla x -> y bhi ho sakta h aur x-> z so multi valued
+example ![alt text](image-97.png)
+![alt text](image-98.png)
+
+problem: ![alt text](image-99.png)
+
+## 4nf 
+![alt text](image-100.png)
+A multivalued dependency X →→ Y is trivial if Y ⊆ X or X ∪ Y = R.
+
+imp agr functional dependecy h to multivalued h lekin multi h to functional h kyuki
+agar do valune aai to kise select karo ge fd m
+
+## lossy / lossless
+so ise tum is example se smj lo 
+![alt text](image-101.png)
+
+ek bada table tha jise break kiya developer ne ab woh chahta h wapas build karna jo ki woh b ki level se karega kyuki column common h so usnse start kiya but ab a ki do value h p bhi r bhi confused so dono dono dalna hoga so ab compare karo original row woh 3 h aur ye 5 so data loss hua kyuki jb humne original build karna chaha to kar nahi paya jo ki hona nahi chaiye so ise ko lossy kehte h agar row km bhi hoti tabhi ye lossy hi hoga so simple ye concept h aur same row raha toh lossless so it simplly this thing 
+
+so ise karne ke liye tume so common column h woh unquei value hona chaiye so candidate key
+
+## dependecy prevsering decomcomption
+![alt text](image-102.png)
+so dependecy presever hue h ki nahi iske liye h merge ke liye but ye complusary nahi ki hona chailye data is more important
+
+![alt text](image-103.png)
+
+## indexing
+so index hum main file nahi balki ek diifrent data m store karte h
+![alt text](image-104.png)
+
+types of indexing
+
+## dense
+isme main file ki key ki sari value store hogi index m  
+![alt text](image-105.png)
+
+## sparse
+isme har value ko nahi mil milegi so no of recoder entry less hogi index se
+![alt text](image-106.png)
+
+2 second example sparse or dense dono h because sari value bhi h aur index less bhi h record ke compare m
+
+![alt text](image-108.png)
+
+![alt text](image-107.png)
+
+## primary indexing
+![alt text](image-109.png)
