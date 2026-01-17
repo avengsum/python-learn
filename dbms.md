@@ -298,3 +298,20 @@ isme index ki bhi indexing karte hai
 predciak m hum kya chate aur kaise lana h woh bhi batate h lekin non m nahi usme just hum likh te get me bs use hu direct mag lete h
 
 ![alt text](image-115.png)
+
+
+## concepts after video
+
+![alt text](image-116.png)
+
+![alt text](image-117.png)
+
+![alt text](image-118.png)
+
+![alt text](image-119.png)
+
+foreign key same table ko refer kr sakta h
+
+![alt text](image-120.png)
+
+A composite attribute is an attribute that can be divided into sub-attributes.
