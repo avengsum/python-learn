@@ -133,7 +133,14 @@ so strong rectangle se represent hoga aur weak double rectangle se hoga
 
 
 ## conversion
-conveesion ke related question karaya asan h samj jaega dekh lena yyad na aae toh
+convesion ke related question karaya asan h samj jaega dekh lena yyad na aae toh
+
+watch it in next rivision
+
+![alt text](image-121.png)
+simple h so pehle sb table likh ko like a aur phir attribute A(a1,a2)
+phir agar many to 1 h to simple dusri primary id daal do ek table m
+agar many to many h to phir table banao dono primary key daal do
 
 ## properties
 ![alt text](image-73.png)
@@ -300,6 +307,30 @@ predciak m hum kya chate aur kaise lana h woh bhi batate h lekin non m nahi usme
 ![alt text](image-115.png)
 
 
+## Relational algebra
+Relational Algebra is a procedural query language for relational databases.
+
+Procedural =
+You tell how to get the result step by step.
+
+![alt text](image-129.png)
+
+![alt text](image-130.png)
+
+![alt text](image-131.png)
+
+![alt text](image-132.png)
+
+## caretaineion product
+
+![alt text](image-133.png)
+
+so ye phle table ki pehli row pakdega phir use durse table ki sari row se jodega phir
+same 2 row ke sath bhi yahi karega
+
+so cartean hone ke baad agar doni ki 2 2 row h toh ab 2*2 4 ho jaega
+
+
 ## concepts after video
 
 ![alt text](image-116.png)
@@ -314,4 +345,72 @@ foreign key same table ko refer kr sakta h
 
 ![alt text](image-120.png)
 
-A composite attribute is an attribute that can be divided into sub-attributes.
+- A composite attribute is an attribute that can be divided into sub-attributes.
+
+## find number of super key
+![alt text](image-122.png)
+step 1 pehle candidate key find karo
+
+so jo attribute rhs me kabbhi na ho fd me woh key ka part jarur hoge so idhr a and b
+hai jo ki kabhi nahi aya h
+so a and b to part of the key h
+so {A,b} ka clouse nikalo
+AB⁺ = {A, B, C, D, E}
+so ye candidate key h
+
+so candidate key ke superset hi super key hota h so jo baki attribute h une check karo ek baar include or ek baar nah include kar ke
+
+![alt text](image-123.png)
+
+so 8 super key
+
+
+important point so super key me candidate key ya phir primary key jarur hoga ye confirm h
+
+trick for these question 
+
+![alt text](image-124.png)
+
+![alt text](image-125.png)
+
+simple yaad rakho ki superkey me key ho aaega hi (candidate ya primary) so candiate key ke age kuch bhi laga do
+
+## important 
+
+so agr koi attribute fd m nahi h to woh confirm key ka part hoga
+
+
+## minimal ques
+
+![alt text](image-126.png)
+
+so first step RHs ko sigle attribute karo
+  Split Y → VX into:
+   - Y → V
+   - Y → X
+
+second step remove lhs 
+
+so vw -> x 
+
+so check karo kya hum v ya w necasssy h
+so jike bina x a skata h use remove karo like v x la skata h w ke bina so remove w
+ v -> x ho jaega simple
+
+third step 
+
+ab tum extra remove karo jo ki hum jante h kaise check karte h
+
+## lossy question
+![alt text](image-127.png)
+
+simple rule yaad rakho so agar ek table m key present h toh woh simply losseless ho jasega kyuki hum us key ki help se table cobstruct kar lege easily
+ 
+in this question find karo key so st attritute fd m nahi h so st part of key hoga jo pqst key h  so D1 m pqst h so woh lossless h
+
+## normilzation
+
+![alt text](image-128.png)
+
+so is tarah ke question m tum sabse pehle candudate key find karo so rule one so rhs hand m kabhi nahi aya woh candidate key ka part hoga so know ab tum sab ke check karo aur candidate key find karo phir normization ki property ki help se question solve karo
+
